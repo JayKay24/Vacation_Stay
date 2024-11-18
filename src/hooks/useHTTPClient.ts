@@ -1,17 +1,18 @@
 import { useState, useEffect } from 'react';
 
-const useHTTPClient = (url: string) => {
+const useHTTPClient = (path: string) => {
     const [data, setData] = useState();
     const [isLoading, setIsLoading] = useState(false);
+    const baseURL = 'https://laara-api-dev-3rc4fb3npa-ew.a.run.app/search/stays';
 
     useEffect(() => {
         setIsLoading(true);
-        fetch(url)
+        fetch(`${baseURL}/${path}`, { headers: { 'x-app-id': '3a2f3e5b-4a89-4fcb-a7e1-31421c7a6344' } })
             .then((res) => res.json())
             .then((data) => setData(data))
             .catch((err) => console.log(err))
             .finally(() => setIsLoading(false));
-    }, [url]);
+    }, [path]);
 
     return { data, isLoading };
 };
