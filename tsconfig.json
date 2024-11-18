@@ -9,6 +9,8 @@
       "react",
       "vite/client",
       "vitest/globals"
-    ]
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   }
 }
