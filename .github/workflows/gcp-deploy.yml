@@ -44,7 +44,7 @@ jobs:
       # It will have build folder and app.yaml
       # app.yaml will use the relative build folder to deploy to GCPs
       - name: Copy build to temp folder
-        run: cp -r build/ temp_folder/build/
+        run: cp -r dist/ temp_folder/build/
 
       - name: Copy app.yaml to temp folder
         run: cp app.yaml temp_folder/app.yaml
