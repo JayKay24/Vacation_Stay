@@ -1,6 +1,7 @@
 import React from 'react';
 import useHTTPClient from '../hooks/useHTTPClient';
 import { Link } from 'react-router-dom';
+import VacationStayCard from '../components/VacationStayCard.component';
 
 const ListVacationStays = () => {
     const { data: vacationStays, isLoading } = useHTTPClient('filtered');
