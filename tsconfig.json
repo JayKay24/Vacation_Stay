@@ -13,5 +13,12 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "exclude": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts", "**/*.spec.tsx"]
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.test.tsx",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "src/tests",
+    "src/__tests__"
+  ]
 }
