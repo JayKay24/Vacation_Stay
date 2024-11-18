@@ -6,8 +6,8 @@ const VacationStayCard: React.FC<{
 }> = ({ stay }) => {
     return (
         <div>
-            <div>{stay.name}</div>
-            <div>{stay.description}</div>
+            <h2>{stay.name}</h2>
+            <h3>{stay.description}</h3>
             <div>{stay._count.reviews}</div>
         </div>
     );
