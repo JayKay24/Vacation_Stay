@@ -1,3 +1,4 @@
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import useHTTPClient from '../hooks/useHTTPClient';
 import { APIResponseVacationStayComplete } from '../app_types/vacation_stay';
