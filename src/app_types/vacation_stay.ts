@@ -136,3 +136,15 @@ export interface VacationStayComplete extends VacationStayFiltered {
     type: string;
     rooms: RoomComplete[],
 }
+
+interface APIResponse {
+    status: string;
+    message: string;
+}
+export interface APIResponseVacationStayFiltered extends APIResponse {
+    data: VacationStayFiltered[];
+}
+
+export interface APIResponseVacationStayComplete extends APIResponse {
+    data: VacationStayComplete;
+}
