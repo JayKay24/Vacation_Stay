@@ -1,4 +1,4 @@
-interface Address {
+interface AddressFiltered {
     country: string;
     county: string;
     town: string;
@@ -8,10 +8,16 @@ interface Address {
     longitude: number;
 }
 
+interface AddressComplete extends AddressFiltered {
+    physicalAddress: string;
+    postCode: string;
+    apartment: string | null;
+}
+
 interface Image {
     images: {
         url: string;
-    }
+    };
 }
 
 interface MealOption {
@@ -20,7 +26,7 @@ interface MealOption {
 }
 
 interface Pricing {
-    id: string;
+    id: number;
     price: number;
     pricingOption: string | null;
     pricingMode: string;
@@ -28,20 +34,78 @@ interface Pricing {
     mealOption: MealOption[];
 }
 
-interface Room {
+interface RoomFiltered {
     roomTypes: {
         name: string;
         description: string;
         pricings: Pricing[];
         roomTypeImages: Image[];
+    };
+}
+
+interface PropertyAmenity {
+    amenities: {
+        name: string;
+        category: string;
+        description: string;
+        icon: string;
+    };
+}
+
+interface BedType {
+    bedType: {
+        description: string;
+        name: string;
+    }
+}
+
+interface RoomComplete {
+    number: string;
+    roomTypes: {
+        id: number;
+        name: string;
+        description: string;
+        maxGuests: number;
+        typeSize: number;
+        bathroom: {
+            isPrivate: boolean;
+            bathroomAmenities: PropertyAmenity[];
+        },
+        roomTypeImages: Image[];
+        roomTypeAmenities: PropertyAmenity[];
+        bedTypes: BedType[];
+        pricings: Pricing[];
+    }
+}
+
+interface PropertyLanguage {
+    language: {
+        name: string;
+    };
+}
+
+interface AccessibilityFeature {
+    features: {
+        category: string;
+        feature: string;
+    };
+}
+
+interface PropertyPolicy {
+    policies: {
+        description: string;
+        type: string;
+        isMandatory: string;
+        penalty: string | null;
+        penaltyType: string | null;
     }
 }
 
 export interface VacationStayFiltered {
-    id: string;
+    id: number;
     name: string;
     description: string;
-    address: Address;
+    address: AddressFiltered;
     _count: {
         reviews: number;
     };
@@ -51,5 +115,24 @@ export interface VacationStayFiltered {
     staffImages: Image[];
     foodImages: Image[];
     mealOptions: MealOption[];
-    rooms: Room[];
+    rooms: RoomFiltered[];
+}
+
+export interface VacationStayComplete extends VacationStayFiltered {
+    address: AddressComplete;
+    parking: string | null;
+    guestVerificationMethod: string;
+    propertyLanguages: PropertyLanguage[];
+    accessbilityFeatures: AccessibilityFeature[];
+    cancellation: string | null;
+    host: {
+        firstName: string;
+        lastName: string;
+    };
+    meetingSpaces: [];
+    propertyOffers: [];
+    propertyAmenities: PropertyAmenity[];
+    propertyPolicies: PropertyPolicy[];
+    type: string;
+    rooms: RoomComplete[],
 }
