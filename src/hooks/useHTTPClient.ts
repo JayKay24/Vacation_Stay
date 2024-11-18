@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
-const useHTTPClient = (path: string) => {
-    const [data, setData] = useState();
+const useHTTPClient = <T>(path: string) => {
+    const [data, setData] = useState<T>();
     const [isLoading, setIsLoading] = useState(false);
     const baseURL = 'https://laara-api-dev-3rc4fb3npa-ew.a.run.app/search/stays';
 
