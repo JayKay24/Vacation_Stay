@@ -1,0 +1,550 @@
+{
+    "status": true,
+    "message": "Stays search executed with success",
+    "data": {
+        "id": 108,
+        "name": "Tigoni Summit",
+        "description": "Enjoy a view of Limuru",
+        "address": {
+            "country": "Kenya",
+            "county": "Kiambu",
+            "town": "Limuru",
+            "street": "Limuru",
+            "latitude": -1.106796,
+            "longitude": 36.64273,
+            "apartment": null,
+            "city": "Nairobi",
+            "physicalAddress": "45678",
+            "postCode": "5108"
+        },
+        "parking": null,
+        "reviews": [],
+        "guestVerificationMethod": "BASIC",
+        "propertyRatings": null,
+        "propertyTags": [],
+        "propertyLanguages": [
+            {
+                "language": {
+                    "name": "English"
+                }
+            },
+            {
+                "language": {
+                    "name": "French"
+                }
+            },
+            {
+                "language": {
+                    "name": "German"
+                }
+            }
+        ],
+        "accessibilityFeatures": [
+            {
+                "features": {
+                    "category": "general",
+                    "feature": "Entire unit located on the ground floor "
+                }
+            },
+            {
+                "features": {
+                    "category": "bedroom",
+                    "feature": "Step-free bedroom entrance"
+                }
+            },
+            {
+                "features": {
+                    "category": "entrance",
+                    "feature": "Wide guest entrance"
+                }
+            },
+            {
+                "features": {
+                    "category": "bathroom",
+                    "feature": "Accessible-height toilet"
+                }
+            },
+            {
+                "features": {
+                    "category": "interior",
+                    "feature": "Wide hallways"
+                }
+            },
+            {
+                "features": {
+                    "category": "common",
+                    "feature": "Lift access"
+                }
+            },
+            {
+                "features": {
+                    "category": "kitchen",
+                    "feature": "Step-free kitchen access"
+                }
+            },
+            {
+                "features": {
+                    "category": "communication",
+                    "feature": "Accessible communication features for guests with hearing impairement"
+                }
+            }
+        ],
+        "cancellation": null,
+        "host": {
+            "firstName": "Eric",
+            "lastName": "Kinyua"
+        },
+        "meetingSpaces": [],
+        "mealOptions": [
+            {
+                "description": null,
+                "plan": "ALL_INCLUSIVE"
+            }
+        ],
+        "propertyImages": [
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/property/f17114c8-fc80-4eb1-ab73-0a7cfee0cc1d_Friends 1.jpeg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/property/75d87e05-15db-47ea-85b6-c705ad6605a2_SSP Color Palette.jpg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/property/b4a0933a-06d5-49e5-b525-2f29ee5bb77a_Article pic.jpg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/property/37e96cda-89f9-4add-9642-69ccbe4c56cf_SSP Color Palette.jpg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/property/a9e39846-e1d4-4e7d-b024-26b45eb7c834_Article pic.jpg"
+                }
+            }
+        ],
+        "staffImages": [],
+        "foodImages": [
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/food/89952116-af88-4a5a-b1c8-ff8fbf86ea14_Friends 1.jpeg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/food/3e3ecb77-cf8c-4328-ac4a-3ca3f8d5fffc_SSP Color Palette.jpg"
+                }
+            },
+            {
+                "images": {
+                    "url": "https://storage.googleapis.com/dev-property-images/108/food/c2fbe348-2efe-4d9d-97c2-6a2f3c00157f_Article pic.jpg"
+                }
+            }
+        ],
+        "propertyOffers": [],
+        "propertyAmenities": [
+            {
+                "amenities": {
+                    "name": "non-smoking room",
+                    "category": "General",
+                    "description": "non-smoking room available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "free wifi",
+                    "category": "General",
+                    "description": "free wifi available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "swimming pool",
+                    "category": "Wellness",
+                    "description": "swimming pool available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "comfortable beds",
+                    "category": "Bedroom",
+                    "description": "comfortable beds available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "ethernet connection",
+                    "category": "Business",
+                    "description": "ethernet connection available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "laptop-friendly workspace",
+                    "category": "Business",
+                    "description": "laptop-friendly workspace available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "emergency exits",
+                    "category": "Safety",
+                    "description": "emergency exits available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "coffee / tea maker",
+                    "category": "Kitchen",
+                    "description": "coffee / tea maker available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "smoke detectors",
+                    "category": "Safety",
+                    "description": "smoke detectors available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "CCTV",
+                    "category": "Safety",
+                    "description": "CCTV available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "fire extinguishers",
+                    "category": "Safety",
+                    "description": "fire extinguishers available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "streaming services (e.g Netflix)",
+                    "category": "Media and Technology",
+                    "description": "streaming services (e.g Netflix) available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "breakfast options",
+                    "category": "Food and Beverage",
+                    "description": "breakfast options available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "shoe shine",
+                    "category": "Services",
+                    "description": "shoe shine available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "bbq facilities",
+                    "category": "Outdoor and Views",
+                    "description": "bbq facilities available",
+                    "icon": null
+                }
+            },
+            {
+                "amenities": {
+                    "name": "fitness center",
+                    "category": "Wellness",
+                    "description": "fitness center available",
+                    "icon": null
+                }
+            }
+        ],
+        "propertyPolicies": [
+            {
+                "policies": {
+                    "description": "Children Allowed",
+                    "type": "Children",
+                    "isMandatory": true,
+                    "penalty": null,
+                    "penaltyType": null
+                }
+            },
+            {
+                "policies": {
+                    "description": "Pets not allowed",
+                    "type": "Pets",
+                    "isMandatory": true,
+                    "penalty": null,
+                    "penaltyType": null
+                }
+            },
+            {
+                "policies": {
+                    "description": "10:00 A.M - 12:00 P.M",
+                    "type": "Check-Out",
+                    "isMandatory": true,
+                    "penalty": null,
+                    "penaltyType": null
+                }
+            },
+            {
+                "policies": {
+                    "description": "10:00 A.M - 11:00 A.M",
+                    "type": "Check-In",
+                    "isMandatory": true,
+                    "penalty": null,
+                    "penaltyType": null
+                }
+            }
+        ],
+        "type": "HOTEL",
+        "rooms": [
+            {
+                "number": "Room 1",
+                "roomTypes": {
+                    "id": 47,
+                    "name": "Standard-Single",
+                    "description": "Standard",
+                    "maxGuests": 1,
+                    "typeSize": 0,
+                    "bathroom": {
+                        "isPrivate": true,
+                        "bathroomAmenties": [
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Toilet paper available",
+                                    "name": "Toilet paper",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Shower available",
+                                    "name": "Shower",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Toilet available",
+                                    "name": "Toilet",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Hair dryer available",
+                                    "name": "Hair dryer",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Bath available",
+                                    "name": "Bath",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Free Toiletries available",
+                                    "name": "Free Toiletries",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Bidet available",
+                                    "name": "Bidet",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Slippers available",
+                                    "name": "Slippers",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Bathrobe available",
+                                    "name": "Bathrobe",
+                                    "icon": null
+                                }
+                            },
+                            {
+                                "amenities": {
+                                    "category": "Bathroom",
+                                    "description": "Spa bath available",
+                                    "name": "Spa bath",
+                                    "icon": null
+                                }
+                            }
+                        ]
+                    },
+                    "roomTypeImages": [
+                        {
+                            "images": {
+                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/6747762d-262b-45bb-aadf-16dab9e90ceb_Article pic.jpg"
+                            }
+                        },
+                        {
+                            "images": {
+                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/51b0999d-6681-4458-bd18-204d373d60e5_Friends 1.jpeg"
+                            }
+                        },
+                        {
+                            "images": {
+                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/611c3461-a5f3-46c0-9598-0d1040e87d43_Friends 1.jpeg"
+                            }
+                        },
+                        {
+                            "images": {
+                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/d1aaacbc-c7bf-46d9-baa1-e7154fca3369_Article pic.jpg"
+                            }
+                        },
+                        {
+                            "images": {
+                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/45608484-6d2e-4238-9016-f11642dc5c06_Article pic.jpg"
+                            }
+                        }
+                    ],
+                    "roomTypePolicies": [
+                        {
+                            "policies": {
+                                "description": "Smoking is not allowed in the property",
+                                "type": "Smoking",
+                                "isMandatory": true
+                            }
+                        }
+                    ],
+                    "roomTypeAmenities": [
+                        {
+                            "amenities": {
+                                "description": "Clothes rack available",
+                                "name": "Clothes rack",
+                                "category": "General",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Linen available",
+                                "name": "Linen",
+                                "category": "General",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Wake-up service available",
+                                "name": "Wake-up service",
+                                "category": "General",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Flat screen TV available",
+                                "name": "Flat screen TV",
+                                "category": "General",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Dining area available",
+                                "name": "Dining area",
+                                "category": "Food and Beverage",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Terrace available",
+                                "name": "Terrace",
+                                "category": "Outdoor and Views",
+                                "icon": null
+                            }
+                        },
+                        {
+                            "amenities": {
+                                "description": "Balcony available",
+                                "name": "Balcony",
+                                "category": "Outdoor and Views",
+                                "icon": null
+                            }
+                        }
+                    ],
+                    "bedTypes": [
+                        {
+                            "bedType": {
+                                "description": "single bed: 90cm - 130cm",
+                                "name": "Single"
+                            }
+                        },
+                        {
+                            "bedType": {
+                                "description": "double bed: 131cm - 150cm",
+                                "name": "Double"
+                            }
+                        },
+                        {
+                            "bedType": {
+                                "description": "Large bed: 151cm - 180cm",
+                                "name": "Large"
+                            }
+                        },
+                        {
+                            "bedType": {
+                                "description": "extra large bed: 181cm - 210cm",
+                                "name": "ExtraLarge"
+                            }
+                        }
+                    ],
+                    "pricings": [
+                        {
+                            "id": 131,
+                            "price": 100,
+                            "pricingOption": null,
+                            "pricingMode": "PER_ROOM",
+                            "occupants": 1,
+                            "mealOption": {
+                                "plan": "ALL_INCLUSIVE",
+                                "description": null
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

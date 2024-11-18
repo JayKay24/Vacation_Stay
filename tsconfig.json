@@ -4,9 +4,13 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ],
-  "types": [
-    "react",
-    "vite/client",
-    "vitest/globals"
-  ]
+  "compilerOptions": {
+    "types": [
+      "react",
+      "vite/client",
+      "vitest/globals"
+    ],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  }
 }
