@@ -8,7 +8,7 @@ describe('VacationStayCard.component: rendering', () => {
     it('renders a vacation title correctly', () => {
         const testID = 'unit-test-vacation';
 
-        render(<VacationStayCard testId={testID} stay={VacationStayData[0] as VacationStayFiltered} />);
+        render(<VacationStayCard testId={testID} stay={VacationStayData.data[0] as VacationStayFiltered} />);
 
         const card = screen.getByTestId(testID);
 
@@ -16,6 +16,6 @@ describe('VacationStayCard.component: rendering', () => {
 
         const children = card.children;
         expect(children.length).toBeGreaterThan(2);
-        expect(children.item(0)?.innerHTML).toContain(VacationStayData[0].name);
+        expect(children.item(0)?.innerHTML).toContain(VacationStayData.data[0].name);
     });
 }); 

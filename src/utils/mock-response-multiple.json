@@ -1,319 +1,323 @@
-[
-    {
-        "id": 108,
-        "name": "Tigoni Summit",
-        "description": "Enjoy a view of Limuru",
-        "address": {
-            "country": "Kenya",
-            "county": "Kiambu",
-            "town": "Limuru",
-            "street": "Limuru",
-            "city": "Nairobi",
-            "latitude": -1.106796,
-            "longitude": 36.64273
+{
+    "status": true,
+    "message": "Filtered stays search executed with success",
+    "data": [
+        {
+            "id": 108,
+            "name": "Tigoni Summit",
+            "description": "Enjoy a view of Limuru",
+            "address": {
+                "country": "Kenya",
+                "county": "Kiambu",
+                "town": "Limuru",
+                "street": "Limuru",
+                "city": "Nairobi",
+                "latitude": -1.106796,
+                "longitude": 36.64273
+            },
+            "_count": {
+                "reviews": 0
+            },
+            "propertyRatings": null,
+            "propertyTags": [],
+            "propertyImages": [
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/property/f17114c8-fc80-4eb1-ab73-0a7cfee0cc1d_Friends 1.jpeg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/property/75d87e05-15db-47ea-85b6-c705ad6605a2_SSP Color Palette.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/property/b4a0933a-06d5-49e5-b525-2f29ee5bb77a_Article pic.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/property/37e96cda-89f9-4add-9642-69ccbe4c56cf_SSP Color Palette.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/property/a9e39846-e1d4-4e7d-b024-26b45eb7c834_Article pic.jpg"
+                    }
+                }
+            ],
+            "staffImages": [],
+            "foodImages": [
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/food/89952116-af88-4a5a-b1c8-ff8fbf86ea14_Friends 1.jpeg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/food/3e3ecb77-cf8c-4328-ac4a-3ca3f8d5fffc_SSP Color Palette.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/108/food/c2fbe348-2efe-4d9d-97c2-6a2f3c00157f_Article pic.jpg"
+                    }
+                }
+            ],
+            "mealOptions": [
+                {
+                    "plan": "ALL_INCLUSIVE",
+                    "description": null
+                }
+            ],
+            "rooms": [
+                {
+                    "roomTypes": {
+                        "name": "Standard-Single",
+                        "description": "Standard",
+                        "pricings": [
+                            {
+                                "id": 131,
+                                "price": 100,
+                                "pricingOption": null,
+                                "pricingMode": "PER_ROOM",
+                                "occupants": 1,
+                                "mealOption": {
+                                    "plan": "ALL_INCLUSIVE",
+                                    "description": null
+                                }
+                            }
+                        ],
+                        "roomTypeImages": [
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/6747762d-262b-45bb-aadf-16dab9e90ceb_Article pic.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/51b0999d-6681-4458-bd18-204d373d60e5_Friends 1.jpeg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/611c3461-a5f3-46c0-9598-0d1040e87d43_Friends 1.jpeg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/d1aaacbc-c7bf-46d9-baa1-e7154fca3369_Article pic.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/45608484-6d2e-4238-9016-f11642dc5c06_Article pic.jpg"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
         },
-        "_count": {
-            "reviews": 0
-        },
-        "propertyRatings": null,
-        "propertyTags": [],
-        "propertyImages": [
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/property/f17114c8-fc80-4eb1-ab73-0a7cfee0cc1d_Friends 1.jpeg"
-                }
+        {
+            "id": 2,
+            "name": "Southern Blue",
+            "description": "The best hotel in Ngara",
+            "address": {
+                "country": "Kenya",
+                "county": "Nairobi",
+                "town": "Nairobi",
+                "street": "Musindi Rd",
+                "city": "Nairobi",
+                "latitude": -1.277614,
+                "longitude": 36.82838
             },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/property/75d87e05-15db-47ea-85b6-c705ad6605a2_SSP Color Palette.jpg"
-                }
+            "_count": {
+                "reviews": 0
             },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/property/b4a0933a-06d5-49e5-b525-2f29ee5bb77a_Article pic.jpg"
+            "propertyRatings": null,
+            "propertyTags": [],
+            "propertyImages": [
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/fba3a659-abd6-4a72-b0d3-bee6cb03f62d_stock-photo-a-spacious-hotel-room-featuring-a-large-bed-with-crisp-white-linens-ambient-lighting-and-2517355041.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/81e2948a-a87b-49c1-801c-ecd4a57cc9fd_stock-photo-interior-of-a-luxury-hotel-lobby-2488061215.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/bb18bc3d-4f7b-4ef2-a628-68a612a00278_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/95fca1f5-f7ff-4f9b-ac07-6baf8663f10a_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/77daeba0-c7c8-4f3d-9979-557866c59e89_stock-photo-stylish-hotel-room-with-a-yellowish-background-featuring-modern-furniture-a-chic-bed-mirror-2505736371.jpg"
+                    }
                 }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/property/37e96cda-89f9-4add-9642-69ccbe4c56cf_SSP Color Palette.jpg"
+            ],
+            "staffImages": [
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/staff/689bb232-fa2a-487b-ae7c-ee7756a2a9e9_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/staff/2d4c32b0-755d-43e4-931c-752564b9bf46_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/staff/9b1221cf-daff-49d7-873b-f81d05c13a5d_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/staff/d49d55d9-31f2-4e47-ad03-34083c31a141_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/staff/f617bf2c-fef3-4275-8ec8-5daedcc76e93_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                    }
                 }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/property/a9e39846-e1d4-4e7d-b024-26b45eb7c834_Article pic.jpg"
+            ],
+            "foodImages": [
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/food/7a77687a-f6e3-45c7-8db1-a584c624acaf_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/food/2edf9833-ed9f-4abf-878c-02f5ed3c6d36_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/food/27fbc0c5-7c7c-4eca-8519-c4f7cd283bd7_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/food/b4691ca1-b54a-4393-a479-4a3b8925cccc_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
+                },
+                {
+                    "images": {
+                        "url": "https://storage.googleapis.com/dev-property-images/2/food/d1a91432-2c59-4501-96b0-fc4d723b17e3_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                    }
                 }
-            }
-        ],
-        "staffImages": [],
-        "foodImages": [
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/food/89952116-af88-4a5a-b1c8-ff8fbf86ea14_Friends 1.jpeg"
+            ],
+            "mealOptions": [
+                {
+                    "plan": "FULL_BOARD",
+                    "description": null
+                },
+                {
+                    "plan": "HALF_BOARD",
+                    "description": null
+                },
+                {
+                    "plan": "ROOM_ONLY",
+                    "description": null
+                },
+                {
+                    "plan": "BED_AND_BREAKFAST",
+                    "description": null
                 }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/food/3e3ecb77-cf8c-4328-ac4a-3ca3f8d5fffc_SSP Color Palette.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/108/food/c2fbe348-2efe-4d9d-97c2-6a2f3c00157f_Article pic.jpg"
-                }
-            }
-        ],
-        "mealOptions": [
-            {
-                "plan": "ALL_INCLUSIVE",
-                "description": null
-            }
-        ],
-        "rooms": [
-            {
-                "roomTypes": {
-                    "name": "Standard-Single",
-                    "description": "Standard",
-                    "pricings": [
-                        {
-                            "id": 131,
-                            "price": 100,
-                            "pricingOption": null,
-                            "pricingMode": "PER_ROOM",
-                            "occupants": 1,
-                            "mealOption": {
-                                "plan": "ALL_INCLUSIVE",
-                                "description": null
+            ],
+            "rooms": [
+                {
+                    "roomTypes": {
+                        "name": "Standard-Single",
+                        "description": "A standard single room",
+                        "pricings": [
+                            {
+                                "id": 4,
+                                "price": 100,
+                                "pricingOption": null,
+                                "pricingMode": "PER_ROOM",
+                                "occupants": 1,
+                                "mealOption": {
+                                    "plan": "FULL_BOARD",
+                                    "description": null
+                                }
+                            },
+                            {
+                                "id": 5,
+                                "price": 80,
+                                "pricingOption": null,
+                                "pricingMode": "PER_ROOM",
+                                "occupants": 1,
+                                "mealOption": {
+                                    "plan": "HALF_BOARD",
+                                    "description": null
+                                }
+                            },
+                            {
+                                "id": 6,
+                                "price": 55,
+                                "pricingOption": null,
+                                "pricingMode": "PER_ROOM",
+                                "occupants": 1,
+                                "mealOption": {
+                                    "plan": "BED_AND_BREAKFAST",
+                                    "description": null
+                                }
+                            },
+                            {
+                                "id": 7,
+                                "price": 45,
+                                "pricingOption": null,
+                                "pricingMode": "PER_ROOM",
+                                "occupants": 1,
+                                "mealOption": {
+                                    "plan": "ROOM_ONLY",
+                                    "description": null
+                                }
                             }
-                        }
-                    ],
-                    "roomTypeImages": [
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/6747762d-262b-45bb-aadf-16dab9e90ceb_Article pic.jpg"
+                        ],
+                        "roomTypeImages": [
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/6255fd20-eac8-470c-ba77-007c736870a1_stock-photo-a-spacious-hotel-room-featuring-a-large-bed-with-crisp-white-linens-ambient-lighting-and-2517355041.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/c5f647bc-bd84-450e-984a-88cb293dc4ea_stock-photo-interior-of-a-luxury-hotel-lobby-2488061215.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/7c5e91c7-8c26-4f39-a18f-949ca68db0f4_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/06ed93bd-e8a6-4844-957f-eb684b080ae7_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
+                                }
+                            },
+                            {
+                                "images": {
+                                    "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/2ce77cd6-fc77-470d-adc7-f8d924a8c459_stock-photo-stylish-hotel-room-with-a-yellowish-background-featuring-modern-furniture-a-chic-bed-mirror-2505736371.jpg"
+                                }
                             }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/51b0999d-6681-4458-bd18-204d373d60e5_Friends 1.jpeg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/611c3461-a5f3-46c0-9598-0d1040e87d43_Friends 1.jpeg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/d1aaacbc-c7bf-46d9-baa1-e7154fca3369_Article pic.jpg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/108/room-types/47/45608484-6d2e-4238-9016-f11642dc5c06_Article pic.jpg"
-                            }
-                        }
-                    ]
+                        ]
+                    }
                 }
-            }
-        ]
-    },
-    {
-        "id": 2,
-        "name": "Southern Blue",
-        "description": "The best hotel in Ngara",
-        "address": {
-            "country": "Kenya",
-            "county": "Nairobi",
-            "town": "Nairobi",
-            "street": "Musindi Rd",
-            "city": "Nairobi",
-            "latitude": -1.277614,
-            "longitude": 36.82838
-        },
-        "_count": {
-            "reviews": 0
-        },
-        "propertyRatings": null,
-        "propertyTags": [],
-        "propertyImages": [
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/fba3a659-abd6-4a72-b0d3-bee6cb03f62d_stock-photo-a-spacious-hotel-room-featuring-a-large-bed-with-crisp-white-linens-ambient-lighting-and-2517355041.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/81e2948a-a87b-49c1-801c-ecd4a57cc9fd_stock-photo-interior-of-a-luxury-hotel-lobby-2488061215.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/bb18bc3d-4f7b-4ef2-a628-68a612a00278_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/95fca1f5-f7ff-4f9b-ac07-6baf8663f10a_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/77daeba0-c7c8-4f3d-9979-557866c59e89_stock-photo-stylish-hotel-room-with-a-yellowish-background-featuring-modern-furniture-a-chic-bed-mirror-2505736371.jpg"
-                }
-            }
-        ],
-        "staffImages": [
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/staff/689bb232-fa2a-487b-ae7c-ee7756a2a9e9_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/staff/2d4c32b0-755d-43e4-931c-752564b9bf46_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/staff/9b1221cf-daff-49d7-873b-f81d05c13a5d_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/staff/d49d55d9-31f2-4e47-ad03-34083c31a141_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/staff/f617bf2c-fef3-4275-8ec8-5daedcc76e93_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                }
-            }
-        ],
-        "foodImages": [
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/food/7a77687a-f6e3-45c7-8db1-a584c624acaf_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/food/2edf9833-ed9f-4abf-878c-02f5ed3c6d36_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/food/27fbc0c5-7c7c-4eca-8519-c4f7cd283bd7_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/food/b4691ca1-b54a-4393-a479-4a3b8925cccc_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            },
-            {
-                "images": {
-                    "url": "https://storage.googleapis.com/dev-property-images/2/food/d1a91432-2c59-4501-96b0-fc4d723b17e3_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                }
-            }
-        ],
-        "mealOptions": [
-            {
-                "plan": "FULL_BOARD",
-                "description": null
-            },
-            {
-                "plan": "HALF_BOARD",
-                "description": null
-            },
-            {
-                "plan": "ROOM_ONLY",
-                "description": null
-            },
-            {
-                "plan": "BED_AND_BREAKFAST",
-                "description": null
-            }
-        ],
-        "rooms": [
-            {
-                "roomTypes": {
-                    "name": "Standard-Single",
-                    "description": "A standard single room",
-                    "pricings": [
-                        {
-                            "id": 4,
-                            "price": 100,
-                            "pricingOption": null,
-                            "pricingMode": "PER_ROOM",
-                            "occupants": 1,
-                            "mealOption": {
-                                "plan": "FULL_BOARD",
-                                "description": null
-                            }
-                        },
-                        {
-                            "id": 5,
-                            "price": 80,
-                            "pricingOption": null,
-                            "pricingMode": "PER_ROOM",
-                            "occupants": 1,
-                            "mealOption": {
-                                "plan": "HALF_BOARD",
-                                "description": null
-                            }
-                        },
-                        {
-                            "id": 6,
-                            "price": 55,
-                            "pricingOption": null,
-                            "pricingMode": "PER_ROOM",
-                            "occupants": 1,
-                            "mealOption": {
-                                "plan": "BED_AND_BREAKFAST",
-                                "description": null
-                            }
-                        },
-                        {
-                            "id": 7,
-                            "price": 45,
-                            "pricingOption": null,
-                            "pricingMode": "PER_ROOM",
-                            "occupants": 1,
-                            "mealOption": {
-                                "plan": "ROOM_ONLY",
-                                "description": null
-                            }
-                        }
-                    ],
-                    "roomTypeImages": [
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/6255fd20-eac8-470c-ba77-007c736870a1_stock-photo-a-spacious-hotel-room-featuring-a-large-bed-with-crisp-white-linens-ambient-lighting-and-2517355041.jpg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/c5f647bc-bd84-450e-984a-88cb293dc4ea_stock-photo-interior-of-a-luxury-hotel-lobby-2488061215.jpg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/7c5e91c7-8c26-4f39-a18f-949ca68db0f4_stock-photo-portrait-of-happy-concierge-in-hotel-lobby-looking-at-camera-2434378251.jpg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/06ed93bd-e8a6-4844-957f-eb684b080ae7_stock-photo-pumpkin-and-bacon-pasta-with-grated-parmesan-cheese-homemade-spaghetti-pumpkin-pasta-on-gray-2519829311.jpg"
-                            }
-                        },
-                        {
-                            "images": {
-                                "url": "https://storage.googleapis.com/dev-property-images/2/room-types/2/2ce77cd6-fc77-470d-adc7-f8d924a8c459_stock-photo-stylish-hotel-room-with-a-yellowish-background-featuring-modern-furniture-a-chic-bed-mirror-2505736371.jpg"
-                            }
-                        }
-                    ]
-                }
-            }
-        ]
-    }
-]
+            ]
+        }
+    ]
+}
