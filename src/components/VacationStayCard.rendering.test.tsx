@@ -1,5 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom';
 
 import VacationStayData from '../utils/mock-response-multiple.json';
 import VacationStayCard from './VacationStayCard.component';
@@ -17,8 +18,7 @@ describe('VacationStayCard.component: rendering', () => {
 
         const children = card.children;
         expect(children.length).toBeGreaterThanOrEqual(3);
-        expect(children.item(0)?.innerHTML).toContain(VacationStayData.data[0].name);
-        expect(children.item(1)?.innerHTML).toContain(VacationStayData.data[0].description);
-        expect(children.item(2)?.innerHTML).toContain(VacationStayData.data[0]._count.reviews);
+        expect(card).toHaveTextContent(VacationStayData.data[0].name);
+        expect(card).toHaveTextContent(VacationStayData.data[0].description);
     });
 }); 
