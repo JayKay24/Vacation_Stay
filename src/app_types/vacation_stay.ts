@@ -1,4 +1,4 @@
-interface AddressFiltered {
+export interface AddressFiltered {
     country: string;
     county: string;
     town: string;
@@ -8,7 +8,7 @@ interface AddressFiltered {
     longitude: number;
 }
 
-interface AddressComplete extends AddressFiltered {
+export interface AddressComplete extends AddressFiltered {
     physicalAddress: string;
     postCode: string;
     apartment: string | null;
