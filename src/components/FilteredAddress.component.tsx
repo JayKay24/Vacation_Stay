@@ -7,7 +7,7 @@ const FilteredAddress: React.FC<{
     testid?: string
 }> = ({ address, testid = 'not-set' }) => {
     return (
-        <StyledFilteredAddress data-testId={testid}>
+        <StyledFilteredAddress data-testid={testid}>
             <p>
                 <strong>Country:</strong> {address.country}
             </p>

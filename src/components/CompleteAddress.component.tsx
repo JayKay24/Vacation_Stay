@@ -3,10 +3,10 @@ import { AddressComplete } from '../app_types/vacation_stay';
 
 const CompleteAddress: React.FC<{
     address: AddressComplete,
-    testId?: string
-}> = ({ address, testId = 'not-set' }) => {
+    testid?: string
+}> = ({ address, testid = 'not-set' }) => {
     return (
-        <div>
+        <div data-testid={testid}>
             <p>
                 <strong>Country:</strong> {address.country}
             </p>
