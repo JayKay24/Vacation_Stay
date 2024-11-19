@@ -8,7 +8,7 @@ on:
       - main
 
 env:
-  SERVICE_NAME: laara_assignment
+  SERVICE_NAME: laara
 
 jobs:
   code-checks:
