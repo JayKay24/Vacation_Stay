@@ -16,6 +16,7 @@ const DisplayVacationStay = () => {
                         <h2>{data?.data?.name}</h2>
                         <h3>{data?.data?.description}</h3>
                         <div>{data?.data?.guestVerificationMethod}</div>
+                        <div>{data?.data?.address.apartment}</div>
                     </div>
                 )
             }
