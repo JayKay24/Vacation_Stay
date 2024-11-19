@@ -3,19 +3,22 @@ import useHTTPClient from '../hooks/useHTTPClient';
 import { Link } from 'react-router-dom';
 import VacationStayCard from '../components/VacationStayCard.component';
 import { APIResponseVacationStayFiltered } from '../app_types/vacation_stay';
+import StyledListVacationStays from '../components/styled/pages/ListVacationStays.pages.styled';
 
 const ListVacationStays = () => {
     const { data: vacationStays, isLoading } = useHTTPClient<APIResponseVacationStayFiltered>('filtered');
 
     return (
-        <div>
+        <StyledListVacationStays>
             {isLoading && (<span>Loading...</span>)}
-            {vacationStays?.data?.map(stay => (
-                <Link key={stay.id} to={`/vacation_stays/${stay.id}`}>
-                    <VacationStayCard key={stay.id} stay={stay} testId='not-set' />
-                </Link>
+            {vacationStays?.data?.map((stay, idx) => (
+                <div className="card-link">
+                    <Link key={stay.id} to={`/vacation_stays/${stay.id}`}>
+                        <VacationStayCard key={stay.id} stay={stay} testid='not-set' />
+                    </Link>
+                </div>
             ))}
-        </div>
+        </StyledListVacationStays>
     );
 };
 

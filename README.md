@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Vacation Stay
+This is a React + Vite application that consumes these endpoints:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* https://laara-api-dev-3rc4fb3npa-ew.a.run.app/search/stays/<ID HERE>
+* https://laara-api-dev-3rc4fb3npa-ew.a.run.app/search/stays/filtered
 
-Currently, two official plugins are available:
+## Dependencies
+* [Docker](https://www.docker.com/)
+* [Node22](https://nodejs.org/en)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running it locally
 
-## Expanding the ESLint configuration
+The above prerequisite dependencies are mandatory. If you already have Docker installed, no need to install Node22(However, you might need it to run tests locally).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To run the application locally, follow these steps:
+1. `$ git clone https://github.com/JayKay24/Vacation_Stay.git`
+2. `$ cd Vacation_Stay`
+3. Make sure docker is up & running
+4. `$ docker build -t <YOUR_PREFERRED_IMAGE_USERNAME>/<YOUR_PREFERRED_APP_NAME>:1.0.0 .`
 
-- Configure the top-level `parserOptions` property like this:
+## Running Tests Locally
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+$ npm run test
 ```
