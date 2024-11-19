@@ -1,9 +1,9 @@
 import React from 'react';
 import { VacationStayFiltered } from '../app_types/vacation_stay';
 import FilteredAddress from './FilteredAddress.component';
-import StyledVacationCard from './styled/VacationStayCard.component.styled';
-import StyledCardHeader from './styled/VacationStayCardHeader.component.styled';
-
+import StyledVacationCard from './styled/components/VacationStayCard.component.styled';
+import StyledCardHeader from './styled/components/VacationStayCardHeader.component.styled';
+import StyledCardBody from './styled/components/VacationStayCardBody.component.styled';
 
 const VacationStayCard: React.FC<{
     stay: VacationStayFiltered,
@@ -15,12 +15,12 @@ const VacationStayCard: React.FC<{
                 <img src={stay.propertyImages[0].images.url} />
             </StyledCardHeader>
             <hr />
-            <div>
-                <h2>Name: {stay.name}</h2>
-                <h3>Description: {stay.description}</h3>
+            <StyledCardBody>
+                <h2>{stay.name}</h2>
+                <h3>{stay.description}</h3>
                 <div>Review Count: {stay._count.reviews}</div>
                 <FilteredAddress address={stay.address} />
-            </div>
+            </StyledCardBody>
         </StyledVacationCard>
     );
 };
