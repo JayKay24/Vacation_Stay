@@ -11,10 +11,10 @@ const ListVacationStays = () => {
     return (
         <StyledListVacationStays>
             {isLoading && (<span>Loading...</span>)}
-            {vacationStays?.data?.map(stay => (
+            {vacationStays?.data?.map((stay, idx) => (
                 <div className="card-link">
                     <Link key={stay.id} to={`/vacation_stays/${stay.id}`}>
-                        <VacationStayCard key={stay.id} stay={stay} testId='not-set' />
+                        <VacationStayCard key={stay.id} stay={stay} testid='not-set' />
                     </Link>
                 </div>
             ))}

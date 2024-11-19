@@ -7,10 +7,10 @@ import StyledCardBody from './styled/components/VacationStayCardBody.component.s
 
 const VacationStayCard: React.FC<{
     stay: VacationStayFiltered,
-    testId: string
-}> = ({ stay, testId = 'not-set' }) => {
+    testid: string
+}> = ({ stay, testid = 'not-set' }) => {
     return (
-        <StyledVacationCard data-testId={testId}>
+        <StyledVacationCard data-testid={testid}>
             <StyledCardHeader>
                 <img src={stay.propertyImages[0].images.url} />
             </StyledCardHeader>

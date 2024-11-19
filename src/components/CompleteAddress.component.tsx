@@ -1,13 +1,12 @@
 import React from 'react';
-import { AddressFiltered } from '../app_types/vacation_stay';
-import StyledFilteredAddress from './styled/components/FilteredAddress.component.styled';
+import { AddressComplete } from '../app_types/vacation_stay';
 
-const FilteredAddress: React.FC<{
-    address: AddressFiltered,
-    testid?: string
-}> = ({ address, testid = 'not-set' }) => {
+const CompleteAddress: React.FC<{
+    address: AddressComplete,
+    testId?: string
+}> = ({ address, testId = 'not-set' }) => {
     return (
-        <StyledFilteredAddress data-testId={testid}>
+        <div>
             <p>
                 <strong>Country:</strong> {address.country}
             </p>
@@ -29,8 +28,14 @@ const FilteredAddress: React.FC<{
             <p>
                 <strong>Longitude:</strong> {address.longitude}
             </p>
-        </StyledFilteredAddress>
+            <p>
+                <strong>Physical Address:</strong> {address.physicalAddress}
+            </p>
+            <p>
+                <strong>Postcode:</strong> {address.postCode}
+            </p>
+        </div>
     );
 };
 
-export default FilteredAddress;
+export default CompleteAddress;

@@ -9,7 +9,7 @@ describe('VacationStayCard.component: rendering', () => {
     it('renders a vacation title correctly', () => {
         const testID = 'unit-test-vacation';
 
-        render(<VacationStayCard testId={testID} stay={VacationStayData.data[0] as unknown as VacationStayFiltered} />);
+        render(<VacationStayCard testid={testID} stay={VacationStayData.data[0] as unknown as VacationStayFiltered} />);
 
         const card = screen.getByTestId(testID);
 
