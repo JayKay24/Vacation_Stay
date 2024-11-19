@@ -1,3 +1,4 @@
+import React from 'react';
 import useHTTPClient from '../hooks/useHTTPClient';
 import { Link } from 'react-router-dom';
 import VacationStayCard from '../components/VacationStayCard.component';
@@ -11,7 +12,7 @@ const ListVacationStays = () => {
             {isLoading && (<span>Loading...</span>)}
             {vacationStays?.data?.map(stay => (
                 <Link key={stay.id} to={`/vacation_stays/${stay.id}`}>
-                    <VacationStayCard key={stay.id} stay={stay} />
+                    <VacationStayCard key={stay.id} stay={stay} testId='not-set' />
                 </Link>
             ))}
         </div>

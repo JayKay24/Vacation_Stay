@@ -1,3 +1,4 @@
+import React from 'react';
 import { useParams } from 'react-router-dom';
 import useHTTPClient from '../hooks/useHTTPClient';
 import { APIResponseVacationStayComplete } from '../app_types/vacation_stay';
@@ -14,6 +15,8 @@ const DisplayVacationStay = () => {
                     <div>
                         <h2>{data?.data?.name}</h2>
                         <h3>{data?.data?.description}</h3>
+                        <div>{data?.data?.guestVerificationMethod}</div>
+                        <div>{data?.data?.address.apartment}</div>
                     </div>
                 )
             }
