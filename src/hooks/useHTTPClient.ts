@@ -10,7 +10,7 @@ const useHTTPClient = <T>(path: string) => {
         fetch(`${baseURL}/${path}`, { headers: { 'x-app-id': '3a2f3e5b-4a89-4fcb-a7e1-31421c7a6344' } })
             .then((res) => res.json())
             .then((data) => setData(data))
-            .catch((err) => console.log(err))
+            .catch((err) => console.error(err))
             .finally(() => setIsLoading(false));
     }, [path]);
 
